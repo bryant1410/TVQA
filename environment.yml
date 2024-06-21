@@ -1,0 +1,17 @@
+name: tvqa
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - pip:
+    - pysrt==1.1.1
+    - tensorboardX==1.6
+  - cudatoolkit=9.0
+  - cudnn=7.1.2
+  - h5py=2.9.0
+  - numpy=1.14.6
+  - pip=19.1.1
+  - python=2.7
+  - pytorch=0.4.0
+  - torchvision=0.2.1
+  - tqdm=4.31.1
